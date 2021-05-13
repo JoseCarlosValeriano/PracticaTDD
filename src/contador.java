@@ -1,8 +1,18 @@
 public class contador {
 
-
-
     int valorInicial = 0;
+    public int getValorInicial() {
+        return valorInicial;
+    }
+
+    public int getValorFinal() {
+        return valorFinal;
+    }
+
+    public int getValorIncremento() {
+        return valorIncremento;
+    }
+
     int valorFinal = 0;
     int valorIncremento = 0;
 
