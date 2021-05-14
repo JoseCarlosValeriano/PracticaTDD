@@ -14,4 +14,10 @@ public class contadorTest {
         assertEquals(0, c.getValorInicial());
     }
 
+    @Test
+    public void testIncremento(){
+        contador c = new contador(1);
+        assertEquals(1, c.getIncremento());
+    }
+
 }

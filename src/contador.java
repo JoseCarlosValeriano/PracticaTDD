@@ -29,4 +29,6 @@ public class contador {
         this.valorIncremento = 1;
     }
 
+    
+
 }
