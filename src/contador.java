@@ -48,5 +48,6 @@ public class contador {
         if(incremento() == true) {
             valorActual = valorInicial;
         }
+        return valorActual;
     }
 }
