@@ -19,5 +19,12 @@ public class contadorTest {
         contador c = new contador(1);
         assertTrue(c.incremento());
     }
+    
 
+    @Test
+    public void testReset(){
+        
+        contador c = new contador(0,1,3);
+        assertEquals(0, c.restart());
+    }
 }

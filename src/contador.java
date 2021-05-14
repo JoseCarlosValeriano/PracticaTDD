@@ -3,7 +3,7 @@ public class contador {
     int valorInicial = 0;
     int valorFinal = 0;
     int valorIncremento = 0;
-    int valorActual = 0;
+    int valorActual = valorInicial;
 
     public int getValorActual() {
         return valorActual;
@@ -44,4 +44,9 @@ public class contador {
         }
     }
 
+    public int restart(){
+        if(incremento() == true) {
+            valorActual = valorInicial;
+        }
+    }
 }
