@@ -24,10 +24,10 @@ public class contadorTest {
     @Test
     public void testReset(){
         contador c = new contador(0,1,3);
-        assertEquals(0, c.restart());
+        assertEquals(0, c.getValorInicial());
     }
 
-    
+
 
 
 

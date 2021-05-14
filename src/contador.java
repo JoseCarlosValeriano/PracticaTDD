@@ -34,22 +34,18 @@ public class contador {
     }
 
     public boolean incremento() {
-        int valorActual = valorInicial;
-        valorActual = valorInicial + valorIncremento;
 
         if (valorActual > valorFinal) {
+            restart();
             return true;
         } else {
             return false;
         }
     }
 
-    public int restart(){
+    public void restart(){
 
-        if(incremento() == true) {
-            valorActual = valorInicial;
-        }
-        return valorActual;
+        valorActual = valorInicial;
     }
 
 }
